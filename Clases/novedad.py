@@ -1,5 +1,4 @@
 from xmlrpc.client import boolean
-
 from ProyectoPOO.Clases.Ruta import Ruta
 
 

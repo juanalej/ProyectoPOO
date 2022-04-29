@@ -1,4 +1,5 @@
 from Clases.Ruta import Ruta
+from Clases.tiempo import Tiempo
 
 
 class Historial ():

@@ -1,5 +1,7 @@
 from Clases.Conductor import Conductor
 from Clases.Ruta import Ruta
+from Clases.contacto import Contacto
+from Clases.novedad import Novedad
 
 
 class EmpresasDeTransporte ():
