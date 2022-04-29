@@ -1,0 +1,2 @@
+class multas ():
+    CodigoMulta=int
