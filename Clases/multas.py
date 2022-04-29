@@ -1,2 +1,2 @@
-class multas ():
-    CodigoMulta=int
+class Multas ():
+    CodigoMulta:int
