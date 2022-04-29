@@ -1,4 +1,4 @@
-from xmlrpc.client import boolean
+from Clases.Persona import Persona
 
 
 class Conductor (Persona):
