@@ -6,5 +6,6 @@ class Historial ():
     RutaVehiculo:Ruta[2]
     TiempoRuta:Tiempo
 
-    def __init__ (self,rutaVehiculo):
+    def __init__ (self,rutaVehiculo,tiempoRuta):
         Ruta=rutaVehiculo
+        Tiempo=tiempoRuta

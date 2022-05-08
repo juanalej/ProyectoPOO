@@ -13,8 +13,6 @@ class EmpresasDeTransporte ():
     Notificacion:Novedad[2]
     Conductores:Conductor[2]
 
-    def __init__(self,rutaEmpresa,conductores,notificacion,contactos):
+    def __init__(self,rutaEmpresa,contactos):
         Ruta=rutaEmpresa
-        Conductor=conductores
-        Novedad=notificacion
         Contacto=contactos

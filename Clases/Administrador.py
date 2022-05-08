@@ -3,8 +3,7 @@ from Clases.Persona import Persona
 
 
 class Administrador (Persona):
-    Empresas:EmpresaDeTransporte[5]
+    Empresas:EmpresasDeTransporte[5]
 
     def __init__(self,empresaDetrasporte):
         EmpresasDeTransporte=empresaDetrasporte
-        self.miDato:str

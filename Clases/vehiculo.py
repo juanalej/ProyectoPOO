@@ -2,7 +2,7 @@ from tempfile import TemporaryDirectory
 from ProyectoPOO.Clases.Conductor import Conductor
 from ProyectoPOO.Clases.EmpresasDeTrasporte import EmpresasDeTransporte
 from ProyectoPOO.Clases.Ruta import Ruta
-from ProyectoPOO.Clases.Multas import Multas
+from ProyectoPOO.Clases.multas import Multas
 
 
 
