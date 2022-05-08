@@ -1,5 +1,5 @@
 from ProyectoPOO.Clases.Ruta import Ruta
-from ProyectoPOO.Clases.Vehiculo import Vehiculo
+from ProyectoPOO.Clases.vehiculo import Vehiculo
 
 
 class Tiempo ():
@@ -9,4 +9,4 @@ class Tiempo ():
     Rutas: Ruta[6]
     def __init__(self,vehiculos,rutas):
         Vehiculo=vehiculos 
-        Ruta=rutas
+        Ruta=rutas 
