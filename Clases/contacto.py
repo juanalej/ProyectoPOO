@@ -6,4 +6,4 @@ class Contacto ():
     NuneroTelefonico:str
     Email: str
     Area: EnumArea
-    
+     

@@ -2,13 +2,13 @@ from tempfile import TemporaryDirectory
 from ProyectoPOO.Clases.Conductor import Conductor
 from ProyectoPOO.Clases.EmpresasDeTrasporte import EmpresasDeTransporte
 from ProyectoPOO.Clases.Ruta import Ruta
-from ProyectoPOO.Clases.multas import Multas
+from ProyectoPOO.Clases.Multas import Multas
 
 
 
 class Vehiculo ():
-    lateral:str
-    placa:str
+    Lateral:str
+    Placa:str
     Actividad: bool
     RutaVehiculo: Ruta[7]
     Empresa:EmpresasDeTransporte
@@ -17,4 +17,4 @@ class Vehiculo ():
     MultaVehiculo: Multas
     def __init__(self,empresa):
         EmpresaDeTransporte= empresa
-        
+         
