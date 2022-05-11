@@ -1,3 +1,5 @@
 from enum import Enum
 class EnumArea(Enum):
-    contabilidad=1
+    Direcion=1
+    RecursosHumanos=2
+    Logistica=3

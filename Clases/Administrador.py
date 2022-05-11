@@ -5,5 +5,5 @@ from Clases.Persona import Persona
 class Administrador (Persona):
     Empresas:EmpresasDeTransporte[5]
 
-    def __init__(self,empresaDetrasporte):
-        EmpresasDeTransporte=empresaDetrasporte
+    def __init__(self,empresas):
+        EmpresasDeTransporte=empresas
