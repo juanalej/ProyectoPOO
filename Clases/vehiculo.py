@@ -36,4 +36,4 @@ class Vehiculos ():
         pass
     def MostrarTiempo (self,TiempoVehiculo:Tiempo):
         pass
-          
+        

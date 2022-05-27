@@ -1,11 +1,11 @@
 class Multas ():
     CodigoMulta:int 
 
-    def CrearMulta (self,CodigoDeMulta:int):
+    def CrearMulta (self,CodigoMulta:int):
         pass
-    def EliminarEmpresa (self,CodigoDeMulta:int):
+    def EliminarEmpresa (self,CodigoMulta:int):
         pass
-    def EnviarMultas (self,CodigoDeMulta:int):
+    def EnviarMultas (self,CodigoMulta:int):
         pass
-    def MostrarMultas (self,CodigoDeMulta:int):
+    def MostrarMultas (self,CodigoMulta:int):
         pass

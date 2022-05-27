@@ -6,11 +6,12 @@ class Conductor (Persona):
     ID:str
     Actividad:bool
 
-    def Crear (self,Telefono:str,ID:str):
+    def CrearConductor (self,Telefono:str,ID:str):
         pass
-    def Eliminar (self,Telefono:str,ID:str):
+    def EliminarConductor (self,Telefono:str,ID:str):
         pass
-    def Modificar (self,Telefono:str):
+    def ModificarTelefono (self,Telefono:str):
         pass
     def CambiarEstado (self,Actividad:bool):
         pass
+    

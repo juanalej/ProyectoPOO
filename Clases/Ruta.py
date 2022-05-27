@@ -4,11 +4,11 @@ class Ruta ():
     Lugares:str[2]
     PuntoSalida:str
     PuntoLlegada:str
-    def CrearRuta (Nombre:str,Direccion:str,Lugares:str[2],PuntoSalidd:str,PuntoLlegada:str):
+    def CrearRuta (self,Nombre:str,Direccion:str,Lugares:str[2],PuntoSalidd:str,PuntoLlegada:str):
         pass
-    def EliminarRuta (Nombre:str,Direccion:str,Lugares:str[2],PuntoSalidd:str,PuntoLlegada:str):
+    def EliminarRuta (self,Nombre:str,Direccion:str,Lugares:str[2],PuntoSalidd:str,PuntoLlegada:str):
         pass
-    def ModificarRuta (Nombre:str,Direccion:str,Lugares:str[2],PuntoSalidd:str,PuntoLlegada:str):
+    def ModificarRuta (self,Nombre:str,Direccion:str,Lugares:str[2],PuntoSalidd:str,PuntoLlegada:str):
         pass
-    def MostrarRuta (Nombre:str,Direccion:str,Lugares:str[2],PuntoSalidd:str,PuntoLlegada:str):
+    def MostrarRuta (self,Nombre:str,Direccion:str,Lugares:str[2],PuntoSalidd:str,PuntoLlegada:str):
         pass

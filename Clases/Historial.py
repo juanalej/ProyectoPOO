@@ -9,10 +9,10 @@ class Historial ():
     def __init__ (self,rutas:Ruta[2],tiempo:Tiempo):
         RutasVehiculos=rutas
         TiempoRuta=tiempo
-    def Listar (RutasVehiculos:Ruta[2],TiempoRuta:Tiempo):
+    def Listar (RutasVehiculo:Ruta[2],TiempoRuta:Tiempo):
         pass
-    def AgregarHistorial (RutasVehiculos:Ruta[2],TiempoRuta:Tiempo):
+    def AgregarHistorial (RutasVehiculo:Ruta[2],TiempoRuta:Tiempo):
         pass
-    def VaciarHistorial (RutassVehiculos:Ruta[2],TiempoRuta:Tiempo):
+    def VaciarHistorial (RutasVehiculo:Ruta[2],TiempoRuta:Tiempo):
         pass
         
