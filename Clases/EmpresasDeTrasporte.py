@@ -6,13 +6,27 @@ from Clases.novedad import Novedad
 
 class EmpresasDeTransporte ():
     Nombre:str
-    Contactos:Contacto[2]
+    ContactosEmpresa:Contacto[2]
     Actividad:bool
     Tarifa:float
-    RutaEmpresa:Ruta[3]
-    Notificacion:Novedad[2]
+    RutasEmpresas:Ruta[3]
+    Notificaciones:Novedad[2]
     Conductores:Conductor[2]
 
-    def __init__(self,rutaEmpresa,contactos):
-        Ruta=rutaEmpresa
-        Contacto=contactos
+    def __init__(self,rutas:Ruta[3],contactos:Contacto[2]):
+        RutaEmpresas=rutas
+        ContactosEmpresa=contactos
+    def CrearEmpresa (self,Nombre:str):
+        pass
+    def EliminarEmpresa (self,Nombre:str):
+        pass
+    def ModificarEmpresa (self,Nombre:str):
+        pass
+    def MostrarTarifa (self,Tarifa:float):
+        pass
+    def CalculaTarifa (self,Tarifa:float):
+        pass
+    def MostrarEstado (self,Actividad:bool):
+        pass
+    def RecibirNotificaciones (self,Notificacion:Novedad[5]):
+        pass
