@@ -1,4 +1,4 @@
-from Clases.Administrador import Administrador
+
 from Clases.Conductor import Conductor
 from Clases.contacto import Contacto
 from Clases.EmpresasDeTrasporte import EmpresasDeTransporte
